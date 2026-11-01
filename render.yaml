@@ -1,0 +1,11 @@
+runtime: node
+nodeVersion: 18
+buildCommand: npm install && npm run build
+startCommand: npm run start
+envVars:
+  - key: SUPABASE_URL
+    value: https://ckiziqjdjwugivoxfzlr.supabase.co
+  - key: SUPABASE_KEY
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNraXppcWpkand1Z2l2b3hmemxyIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc5MzQ2MDYyNSwiZXhwIjoyMTA5MDM2NjI1fQ.uv3gPGfLD3LJF7pucjvdFSQj-kc2c5B88QuHHPAaL6o
+  - key: PORT
+    value: 3000
